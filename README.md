@@ -10,13 +10,11 @@ Desenvolvimento de um App Web completo, fornecendo recursos como criação, leit
 
 ## Participantes
 ### 🚀 Capitão
-[NOME e GITHUB]
+[Maykon Mendel](https://github.com/maykonmendel)
 
 ### 💂‍♀️ Batalhão
-* [NOME e GITHUB]
-* [NOME e GITHUB]
-* [NOME e GITHUB]
-* [NOME e GITHUB]
+[Paulo Jonas](https://github.com/pjonas21)
+[Reginaldo Mestrinel](https://github.com/mestrinel1)
 
 ## ⚙️ Tecnologias
 * C# 12
