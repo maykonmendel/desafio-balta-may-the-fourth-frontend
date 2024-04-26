@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\Debug\\net8.0\\compressed\\29tl633i3d.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MayTheFourth.styles.css",
+      "PackagePath": "staticwebassets\\MayTheFourth.styles.css"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MayTheFourth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MayTheFourth.props",
+      "PackagePath": "build\\MayTheFourth.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MayTheFourth.props",
+      "PackagePath": "buildMultiTargeting\\MayTheFourth.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MayTheFourth.props",
+      "PackagePath": "buildTransitive\\MayTheFourth.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
