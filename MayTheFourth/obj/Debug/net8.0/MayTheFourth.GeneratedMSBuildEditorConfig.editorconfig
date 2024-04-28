@@ -13,39 +13,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MayTheFourth
 build_property.RootNamespace = MayTheFourth
-build_property.ProjectDir = C:\projects\desafio-balta-may-the-fourth-frontend\MayTheFourth\
+build_property.ProjectDir = /home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\projects\desafio-balta-may-the-fourth-frontend\MayTheFourth
+build_property.MSBuildProjectDirectory = /home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/App.razor]
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Filmes.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsbWVzLnJhem9y
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Filmes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlsbWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Naves.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTmF2ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Personagens.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYWdlbnMucmF6b3I=
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Personagens.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uYWdlbnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/_Imports.razor]
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Planetas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGxhbmV0YXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Veiculos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmVpY3Vsb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-09y41aj3jz
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pn7cp6z55v
 
-[C:/projects/desafio-balta-may-the-fourth-frontend/MayTheFourth/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-rc7ti17vgl
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hxwy12kgtn
+
+[/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-nwdgtrlv6y

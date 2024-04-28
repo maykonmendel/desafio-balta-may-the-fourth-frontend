@@ -1,0 +1,10 @@
+.image-wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.image-home {
+    height: 70%;
+}

@@ -1,59 +1,75 @@
 {
   "Files": [
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\Debug\\net8.0\\compressed\\29tl633i3d.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/obj/Debug/net8.0/compressed/znfyhuqxy7.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MayTheFourth.styles.css",
-      "PackagePath": "staticwebassets\\MayTheFourth.styles.css"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/obj/Debug/net8.0/scopedcss/bundle/MayTheFourth.styles.css",
+      "PackagePath": "staticwebassets/MayTheFourth.styles.css"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/images/Frame 82.jpg",
+      "PackagePath": "staticwebassets/images/Frame 82.jpg"
     },
     {
-      "Id": "C:\\projects\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/images/Github-Icon.png",
+      "PackagePath": "staticwebassets/images/Github-Icon.png"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MayTheFourth.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/images/Group 12.png",
+      "PackagePath": "staticwebassets/images/Group 12.png"
+    },
+    {
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/images/Logo.png",
+      "PackagePath": "staticwebassets/images/Logo.png"
+    },
+    {
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MayTheFourth.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MayTheFourth.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MayTheFourth.props",
       "PackagePath": "build\\MayTheFourth.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MayTheFourth.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MayTheFourth.props",
       "PackagePath": "buildMultiTargeting\\MayTheFourth.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MayTheFourth.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MayTheFourth.props",
       "PackagePath": "buildTransitive\\MayTheFourth.props"
     }
   ],
