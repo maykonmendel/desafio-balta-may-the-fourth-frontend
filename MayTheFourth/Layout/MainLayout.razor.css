@@ -38,12 +38,13 @@ main {
 
 @media (max-width: 640.98px) {
     .top-row {
-        justify-content: space-between;
+        display: none;
+        /* justify-content: space-between; */
     }
 
-    .top-row ::deep a, .top-row ::deep .btn-link {
+    /* .top-row ::deep a, .top-row ::deep .btn-link {
         margin-left: 0;
-    }
+    } */
 }
 
 @media (min-width: 641px) {
