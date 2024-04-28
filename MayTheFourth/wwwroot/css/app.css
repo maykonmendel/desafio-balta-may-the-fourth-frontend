@@ -1,3 +1,10 @@
+:root {
+    --app-black: #1E1E1E;
+    --app-star: #FFCF00;
+    --app-metal: #BFBFBF;
+    --app-white: #FFFFFF;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

@@ -1,9 +1,9 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">MayTheFourth</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="">
+            <img class="logo-brand" src="img/logo-app-alt.png" alt="Logo" />
+        </a>
+        <span class="toggler-sidebar navbar-toggler-icon" @onclick="ToggleNavMenu" title="Navigation menu"></span>
     </div>
 </div>
 
@@ -15,25 +15,40 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="/movies">
+                <span class="bi bi-movie-nav-menu" aria-hidden="true"></span> Filmes
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            <NavLink class="nav-link" href="/persons">
+                <span class="bi bi-person-nav-menu" aria-hidden="true"></span> Personagens
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/vehicles">
+                <span class="bi bi-vehicle-nav-menu" aria-hidden="true"></span> Veículos
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/planets">
+                <span class="bi bi-planet-nav-menu" aria-hidden="true"></span> Planetas
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/airplanes">
+                <span class="bi bi-airplane-nav-menu" aria-hidden="true"></span> Naves Estelares
             </NavLink>
         </div>
     </nav>
 </div>
 
 @code {
-    private bool collapseNavMenu = true;
+    private bool _collapseNavMenu = true;
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    private string? NavMenuCssClass => _collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
-        collapseNavMenu = !collapseNavMenu;
+        _collapseNavMenu = !_collapseNavMenu;
     }
 }
