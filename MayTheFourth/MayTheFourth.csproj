@@ -11,4 +11,36 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="wwwroot\sample-data\**" />
+    <Compile Remove="Layout\Components\**" />
+    <Compile Remove="wwwroot\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\sample-data\**" />
+    <EmbeddedResource Remove="Layout\Components\**" />
+    <EmbeddedResource Remove="wwwroot\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\sample-data\**" />
+    <Content Remove="Pages\Weather.razor" />
+    <Content Remove="Pages\Counter.razor" />
+    <Content Remove="wwwroot\icon-192.png" />
+    <Content Remove="Layout\Components\**" />
+    <Content Remove="wwwroot\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\sample-data\**" />
+    <None Remove="Layout\Components\**" />
+    <None Remove="wwwroot\icons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\icons\home-icon.svg" />
+  </ItemGroup>
+
 </Project>
