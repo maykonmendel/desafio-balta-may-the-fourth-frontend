@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj": {}
+    "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/MayTheFourth.csproj": {}
   },
   "projects": {
-    "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj": {
+    "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/MayTheFourth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
+        "projectUniqueName": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/MayTheFourth.csproj",
         "projectName": "MayTheFourth",
-        "projectPath": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
-        "packagesPath": "C:\\Users\\mayko\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\",
+        "projectPath": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/MayTheFourth.csproj",
+        "packagesPath": "/home/paulojonas/.nuget/packages/",
+        "outputPath": "/home/paulojonas/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mayko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/paulojonas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,13 +50,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             }
           },
@@ -81,7 +74,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.3, 8.0.3]"
+              "version": "[8.0.4, 8.0.4]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
