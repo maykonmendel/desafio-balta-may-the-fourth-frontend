@@ -26,10 +26,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/maykonmendel/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Development/maykonmendel/desafio-balta-may-the-fourth-frontend/MayTheFourth/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,3 +37,7 @@ build_metadata.AdditionalFiles.CssScope = b-09y41aj3jz
 [D:/Development/maykonmendel/desafio-balta-may-the-fourth-frontend/MayTheFourth/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rc7ti17vgl
+
+[D:/Development/maykonmendel/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dqmfqv2es2

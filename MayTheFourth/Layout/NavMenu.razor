@@ -3,7 +3,9 @@
         <a class="navbar-brand" href="">
             <img class="logo-brand" src="img/logo-app-alt.png" alt="Logo" />
         </a>
-        <span class="toggler-sidebar navbar-toggler-icon" @onclick="ToggleNavMenu" title="Navigation menu"></span>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     </div>
 </div>
 
@@ -11,32 +13,32 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                <span class="fa-solid fa-house" aria-hidden="true"></span> Home
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/movies">
-                <span class="bi bi-movie-nav-menu" aria-hidden="true"></span> Filmes
+                <span class="fa-solid fa-film" aria-hidden="true"></span> Filmes
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/persons">
-                <span class="bi bi-person-nav-menu" aria-hidden="true"></span> Personagens
+                <span class="fa-solid fa-user" aria-hidden="true"></span> Personagens
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/vehicles">
-                <span class="bi bi-vehicle-nav-menu" aria-hidden="true"></span> Veículos
+                <span class="fa-solid fa-car" aria-hidden="true"></span> Veículos
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/planets">
-                <span class="bi bi-planet-nav-menu" aria-hidden="true"></span> Planetas
+                <span class="fa-solid fa-globe" aria-hidden="true"></span> Planetas
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="/airplanes">
-                <span class="bi bi-airplane-nav-menu" aria-hidden="true"></span> Naves Estelares
+                <span class="fa-solid fa-shuttle-space" aria-hidden="true"></span> Naves Estelares
             </NavLink>
         </div>
     </nav>
