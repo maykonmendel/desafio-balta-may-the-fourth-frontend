@@ -1,0 +1,57 @@
+﻿@page "/movies"
+@inject MovieService Service
+
+<PageTitle>Filmes</PageTitle>
+
+<h1>Filmes</h1>
+
+<div class="container">
+    @if (!_movies.Any())
+    {
+        <p class="text-center">
+            <em>Carregando os filmes...</em>
+        </p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Título</th>
+                <th>Episódio</th>
+                <th>Texto de Abertura</th>
+                <th>Diretor</th>
+                <th>Produtor</th>
+                <th>Data de Lançamento</th>
+                <th>Personagens</th>
+                <th>Planetas</th>
+                <th>Veículos</th>
+                <th>Naves Estelares</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var movie in _movies)
+            {
+            <tr>
+                <td>
+                    @movie.Title
+                </td>
+            </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private IEnumerable<Movie> _movies = [];
+ 
+    protected override async Task OnInitializedAsync()
+    {
+        await GetMoviesAsync();
+    }
+
+    private async Task GetMoviesAsync() => _movies = await Service.GetMoviesAsync();
+}
+
