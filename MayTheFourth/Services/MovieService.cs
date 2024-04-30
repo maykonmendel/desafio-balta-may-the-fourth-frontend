@@ -6,9 +6,9 @@ namespace MayTheFourth.Services;
 
 public class MovieService(IHttpClientFactory httpClientFactory)
 {
-    public async Task<IEnumerable<Movie>> GetMoviesAsync()
+    public async Task<IEnumerable<Movie>> GetMoviesAsync(int page, int take)
     {
         var client = httpClientFactory.CreateClient(Configuration.HttpClientName);
-        return await client.GetFromJsonAsync<IEnumerable<Movie>>("api/filmes") ?? [];
+        return await client.GetFromJsonAsync<IEnumerable<Movie>>("api/films?page=" + page + "&take=" + take) ?? [];
     }
 }

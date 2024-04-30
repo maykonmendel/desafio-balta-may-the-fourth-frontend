@@ -52,6 +52,6 @@
         await GetMoviesAsync();
     }
 
-    private async Task GetMoviesAsync() => _movies = await Service.GetMoviesAsync();
+    private async Task GetMoviesAsync() => _movies = await Service.GetMoviesAsync(1, 10);
 }
 

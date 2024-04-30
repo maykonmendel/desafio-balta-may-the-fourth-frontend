@@ -1,0 +1,49 @@
+@page "/persons"
+@inject CharacterService Service
+
+<PageTitle>Personagens</PageTitle>
+
+<h1>Personagens</h1>
+
+<div class="container">
+    @if (!_characters.Any())
+    {
+        <p class="text-center">
+            <em>Carregando os personagens...</em>
+        </p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Ações</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var character in _characters)
+            {
+            <tr>
+                <td>
+                    @character.Name
+                </td>
+            </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>
+
+@code {
+    private IEnumerable<Character> _characters = [];
+ 
+    protected override async Task OnInitializedAsync()
+    {
+        await GetCharactersAsync();
+    }
+
+    private async Task GetCharactersAsync() => _characters = await Service.GetCharactersAsync(1,10);
+}
+
