@@ -2,6 +2,7 @@
 
 public class Movie
 {
+    public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
     public string Episode { get; set; } = string.Empty;
     public string OpeningCrawl { get; set; } = string.Empty;

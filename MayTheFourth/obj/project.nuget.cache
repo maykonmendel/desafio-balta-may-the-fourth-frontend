@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0sF2veFaIMayW/aEwkHFtRdsrE3QWA4QOb8dF9Z5qPEQSyyI524Pu4OO+RuBeK5wtMmwQFB2WOYTLYO7pNMgLg==",
+  "dgSpecHash": "EB5z+WB5ucEqbdKqDVScAl6Q+3hTVaCaHuJbBxxMfKk/kj4cvV+yd3zSWUc+9jfzygAUaDocwMQk92AU6QuF3A==",
   "success": true,
   "projectFilePath": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
   "expectedPackageFiles": [
@@ -32,13 +32,13 @@
     "C:\\Users\\mayko\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\microsoft.jsinterop\\8.0.3\\microsoft.jsinterop.8.0.3.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.3\\microsoft.jsinterop.webassembly.8.0.3.nupkg.sha512",
-    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.3\\microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
-    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.3\\microsoft.net.sdk.webassembly.pack.8.0.3.nupkg.sha512",
+    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.4\\microsoft.net.sdk.webassembly.pack.8.0.4.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\mayko\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.3.nupkg.sha512"
+    "C:\\Users\\mayko\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }
