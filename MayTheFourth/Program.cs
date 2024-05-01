@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MayTheFourth;
 using MayTheFourth.Services;
+using MayTheFourth.Models;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -17,5 +18,6 @@ builder.Services.AddHttpClient(
 builder.Services.AddTransient<MovieService>();
 builder.Services.AddTransient<CharacterService>();
 builder.Services.AddTransient<VehicleService>();
+builder.Services.AddTransient<PlanetService>();
 
 await builder.Build().RunAsync();
