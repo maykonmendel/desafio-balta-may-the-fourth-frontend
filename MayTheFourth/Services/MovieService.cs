@@ -21,10 +21,11 @@ public class MovieService(IHttpClientFactory httpClientFactory)
                     PropertyNameCaseInsensitive = true
                 };
                 var movies = JsonSerializer.Deserialize<PagedResult<Movie>>(json, options);
+                if (movies is null) return movies ?? new PagedResult<Movie>();
                 movies.CurrentPage = currentPage;
                 movies.PageSize = pageSize;
-                
-                return movies ?? new PagedResult<Movie>();
+
+                return movies;
             }
             else
             {
