@@ -19,5 +19,6 @@ builder.Services.AddTransient<MovieService>();
 builder.Services.AddTransient<CharacterService>();
 builder.Services.AddTransient<VehicleService>();
 builder.Services.AddTransient<PlanetService>();
+builder.Services.AddTransient<StarshipService>();
 
 await builder.Build().RunAsync();

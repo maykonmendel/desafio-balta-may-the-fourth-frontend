@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhbmV0c1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Starships/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhcnNoaXBzXEluZGV4LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/projetos/desafio-balta-may-the-fourth-frontend/MayTheFourth/Pages/Vehicles/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
