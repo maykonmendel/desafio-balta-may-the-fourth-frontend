@@ -16,5 +16,6 @@ builder.Services.AddHttpClient(
 
 builder.Services.AddTransient<MovieService>();
 builder.Services.AddTransient<CharacterService>();
+builder.Services.AddTransient<VehicleService>();
 
 await builder.Build().RunAsync();
