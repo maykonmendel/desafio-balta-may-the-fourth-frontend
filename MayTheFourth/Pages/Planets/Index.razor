@@ -52,10 +52,10 @@
                                 <span class="flex-grow-1">Mostrando @_pageSize de @_pagedResult.Total itens</span>
                                 <div class="d-flex align-items-center gap-2">
                                     <label for="pageSize">Itens por página:</label>
-                                    <select class="form-select form-select-sm" style="width: 58px" id="pageSize" @onchange="UpdatePageSize">
-                                        <option value="2">2</option>
-                                        <option value="4">4</option>
-                                        <option value="6">6</option>
+                                    <select class="form-select form-select-sm" style="width: 62px" id="pageSize" @onchange="UpdatePageSize">
+                                        <option value="5">5</option>
+                                        <option value="10">10</option>
+                                        <option value="15">15</option>
                                     </select>
                                 </div>
                                 <button class="pagination-button" disabled="@(_currentPage == 1)" @onclick="PreviousPage">

@@ -21,6 +21,7 @@ public class CharacterService(IHttpClientFactory httpClientFactory)
                     PropertyNameCaseInsensitive = true
                 };
                 var characters = JsonSerializer.Deserialize<PagedResult<Character>>(json, options);
+                if (characters is null) return characters ?? new PagedResult<Character>();
                 characters.CurrentPage = currentPage;
                 characters.PageSize = pageSize;
                 

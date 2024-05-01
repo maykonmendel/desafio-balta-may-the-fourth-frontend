@@ -21,6 +21,7 @@ public class VehicleService(IHttpClientFactory httpClientFactory)
                     PropertyNameCaseInsensitive = true
                 };
                 var vehicles = JsonSerializer.Deserialize<PagedResult<Vehicle>>(json, options);
+                if (vehicles is null) return vehicles ?? new PagedResult<Vehicle>();
                 vehicles.CurrentPage = currentPage;
                 vehicles.PageSize = pageSize;
                 

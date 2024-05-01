@@ -21,6 +21,7 @@ public class StarshipService(IHttpClientFactory httpClientFactory)
                     PropertyNameCaseInsensitive = true
                 };
                 var starships = JsonSerializer.Deserialize<PagedResult<Starship>>(json, options);
+                if (starships is null) return starships ?? new PagedResult<Starship>();
                 starships.CurrentPage = currentPage;
                 starships.PageSize = pageSize;
                 

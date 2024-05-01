@@ -2415,24 +2415,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paulo\\.nuget\\packages\\": {}
+    "C:\\Users\\mayko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
+      "projectUniqueName": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
       "projectName": "MayTheFourth",
-      "projectPath": "C:\\projetos\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
-      "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\",
+      "projectPath": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\MayTheFourth.csproj",
+      "packagesPath": "C:\\Users\\mayko\\.nuget\\packages\\",
+      "outputPath": "D:\\Development\\maykonmendel\\desafio-balta-may-the-fourth-frontend\\MayTheFourth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mayko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2445,11 +2447,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

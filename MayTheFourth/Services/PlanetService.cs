@@ -21,6 +21,7 @@ public class PlanetService(IHttpClientFactory httpClientFactory)
                     PropertyNameCaseInsensitive = true
                 };
                 var planets = JsonSerializer.Deserialize<PagedResult<Planet>>(json, options);
+                if (planets is null) return planets ?? new PagedResult<Planet>();
                 planets.CurrentPage = currentPage;
                 planets.PageSize = pageSize;
                 
