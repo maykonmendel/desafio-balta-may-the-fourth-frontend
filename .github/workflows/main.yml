@@ -41,7 +41,7 @@ jobs:
         run: dotnet build -c Release --no-restore
 
       - name: Publish .NET
-        run: dotnet publish MayTheFourth.sln -c:Release -o docs --nologo
+        run: dotnet publish MayTheFourth/MayTheFourth.csproj -c:Release -o docs --nologo
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
