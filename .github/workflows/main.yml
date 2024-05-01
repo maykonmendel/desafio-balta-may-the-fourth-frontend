@@ -40,13 +40,16 @@ jobs:
         run: dotnet build -c Release --no-restore
       
       - name: Publish .NET
-        run: dotnet publish MayTheFourth.csproj -c Release -o docs --no-logo
+        run: dotnet publish MayTheFourth.sln -c Release -o docs --no-logo
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
       - name: Upload
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/wwwroot'
+
       
       - name: Deploy
         id: deployment
