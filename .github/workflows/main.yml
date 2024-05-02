@@ -43,7 +43,7 @@ jobs:
         run: dotnet publish ./MayTheFourth/MayTheFourth.csproj -c:Release -o docs --nologo
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v4      
 
       - name: Upload
         uses: actions/upload-pages-artifact@v3
