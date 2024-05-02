@@ -34,13 +34,13 @@ jobs:
         run: dotnet workload install wasm-tools
 
       - name: Restore Dependencies
-        run: dotnet restore MayTheFourth
+        run: dotnet restore
 
       - name: Build
-        run: dotnet build MayTheFourth -c Release --no-restore
+        run: dotnet build -c Release --no-restore
 
       - name: Publish .NET
-        run: dotnet publish MayTheFourth -c:Release -o docs --nologo
+        run: dotnet publish ./MayTheFourth/MayTheFourth.csproj -c:Release -o docs --nologo
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
