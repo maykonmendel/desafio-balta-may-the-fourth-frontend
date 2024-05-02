@@ -37,7 +37,7 @@ jobs:
         run: dotnet restore MayTheFourth
 
       - name: Build
-        run: dotnet build -c Release --no-restore
+        run: dotnet build MayTheFourth -c Release --no-restore
 
       - name: Publish .NET
         run: dotnet publish MayTheFourth -c:Release -o docs --nologo
