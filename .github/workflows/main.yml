@@ -30,7 +30,6 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-
       - name: Install .NET Wasm Tools
         run: dotnet workload install wasm-tools
 
@@ -42,9 +41,6 @@ jobs:
 
       - name: Publish .NET
         run: dotnet publish ./MayTheFourth/MayTheFourth.csproj -c:Release -o docs --nologo
-
-      - name: Add .nojekyll file
-        run: touch docs/wwwroot/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
