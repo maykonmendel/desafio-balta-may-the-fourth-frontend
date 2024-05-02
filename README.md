@@ -36,26 +36,26 @@ Desenvolvimento de um App Web completo, fornecendo recursos como criação, leit
 ### Para testar o deploy
 Acesse o link da aplicação frontend: 
 ```
-https://maykonmendel.github.io
+https://maykonmendel.github.io/desafio-balta-may-the-fourth-frontend
 ```
 
 ### Para rodar localmente
-Antes de realizar os passos abaixo, é necessário instalar:
+[-] Antes de realizar os passos abaixo, é necessário instalar:
 - SDK .NET 8.0.x
 - Visual Studio 2022 ou VS Code
 - Browser de sua preferência
 
-- Faça clone do projeto:
+[-] Faça clone do projeto:
 ```
 git clone https://github.com/maykonmendel/desafio-balta-may-the-fourth-frontend.git
 ```
 
-- Restaure as dependências do projeto:
+[-] Restaure as dependências do projeto:
 ```
 dotnet restore
 ```
 
-- Execute o projeto:
+[-] Execute o projeto:
 ```
 dotnet run
 ```
