@@ -43,6 +43,9 @@ jobs:
       - name: Publish .NET
         run: dotnet publish ./MayTheFourth/MayTheFourth.csproj -c:Release -o docs --nologo
 
+      - name: Add .nojekyll file
+        run: touch docs/wwwroot/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
